@@ -15,7 +15,7 @@ try:
 except Exception as e:
     print(f"NLTK Download error: {e}")
 
-# -------------------------------
+# -------------------------------0000
 # DATABASE SETUP
 # -------------------------------
 conn = sqlite3.connect("chat_history.db")
